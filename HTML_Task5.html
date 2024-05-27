@@ -1,0 +1,100 @@
+<!Doctype html>
+<html>
+<head>
+	<title> Task5 </title>
+<style>
+	table, th,td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	th {
+		width:20%;
+	}
+	input[type="text"],input[type="email"],input[type="number"],textarea,input[type="password"] {
+		width: 100%;
+		box-sizing: border-box;
+	}
+</style>	
+</head>
+<body>
+	<table style="width: 80%;margin: auto;">
+	<center> <h1 style="color:blue"> Registration Form: </h1> </center>
+	<tr>
+		<th> First Name </th>
+		<td> <input type="text" name="fname"> </td>
+	</tr>
+	<tr>
+		<th> Last Name </th>
+		<td> <input type="text" name="lname"> </td>
+	</tr>
+	<tr>
+		<th> Email </th>
+		<td> <input type="text" name="email"> </td>
+	</tr>
+	<tr> 
+		<th> Password </th>
+		<td> <input type="password" name="pwd"> </td>
+	</tr>
+	<tr> 
+		<th> Re-enter Password </th>
+		<td> <input type="password" name="pwd"> </td>
+	</tr>
+	<tr>
+		<th rowspan="2"> Gender: </th>
+		<td> <input type="radio" name="gender"> Male </td>
+	</tr>
+	<tr> 
+		<td> <input type="radio" name="gender"> Female </td>
+	</tr>
+	<tr>
+		<th> Age </th>
+		<td> <input type="text" name="age"> </td>
+	</tr>
+	<tr>
+		<th> Phone Number </th>
+		<td> <input type="text" name="phno"> </td>
+	</tr>
+	<tr>
+		<th> Address </th>
+		<td> <textarea> </textarea> </td>
+	</tr>
+	<tr>
+		<th> State </th>
+		<td> <input type="text" name="state"> </td>
+	</tr>
+	<tr>
+		<th> Country </th>
+		<td> 
+			<select>
+				<option value=""> Choode your country </option>
+				<option value="india"> India </option>
+				<option value="australia"> Australia </option>
+				<option value="new zealand"> New Zealand </option>
+				<option value="england"> England </option>
+				<option value="south africa"> South Africa </option>
+				<option value="pakistan"> Pakistan </option>
+				<option value="chinna"> Chinna </option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<th> Languages Known </th>
+		<td>
+			<input type="checkbox" name="english"> English </input>
+			<input type="checkbox" name="kannada"> Kannada </input>
+			<input type="checkbox" name="hindi"> Hindi </input>
+			<input type="checkbox" name="telugu"> Telugu </input>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="checkbox"> Hereby I declare all the given details are true 
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: right;"> Log in to <a href="https://enthus.com"> Ethnus </a> website </td>
+	</tr>
+</table> <br>
+<center> <input type="submit" name="Registration" value="Registration"> </center> 
+</body>
+</html>
