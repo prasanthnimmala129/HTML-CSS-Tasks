@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Task2 </title>
+<style>
+	.li1 {
+		padding: 5px;
+		list-style-type: none;
+		font-size: 20px;
+		color: blue;
+	} 
+	#list1 {
+		background-color: goldenrod;
+		color: white;
+	}
+	#ul1 {
+		margin: 0px;
+		padding: 0px;
+		background-color: #96D4D4;
+	}
+	#ul2 {
+		margin: 0px;
+		padding: 0px;
+		background-color: lightgray;
+	}
+	.li12 {
+		display: inline-block;
+		font-size: 18px;
+		padding: 10px;
+		color: blue;
+		background-color: 1.5px solid blue;
+	}
+	#list2 {
+		color: white;
+		background-color: gray;
+	}
+	.flex-container {
+		display: flex;
+		height: 97vh;
+		justify-content: center;
+		align-items: center;
+	}
+	#div1 {
+		padding: 10px 7px 0px 5px;
+		border: 1px solid black;
+	}
+	#div2 {
+		padding: 8px 0px 8px 5px;
+		border: 1px solid black;
+		width: 55vh;
+	}
+</style>	
+</head>
+<body>
+	<div class="flex-container">
+		<div>
+			<p style="text-align: center"> Vertical Navigation Bar </p>
+			<div id="div1">
+				<ul id="ul1">
+					<li id="list1" class="li1"> Home </li>
+					<li class="li1"> Java </li>
+					<li class="li1"> CSS </li>
+					<li class="li1"> HTML </li>
+					<li class="li1"> Bootstrap </li>
+				</ul>
+			</div>
+			<div>
+				<p style="text-align: center"> Horizontal Navigation Bar </p>
+				<div id="div2">
+					<ul id="ul2">
+						<li class="li12" id="list2"> Home </li>
+						<li class="li12"> Java </li>
+						<li class="li12"> CSS </li>
+						<li class="li12"> HTML </li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+</body>
+</html>
