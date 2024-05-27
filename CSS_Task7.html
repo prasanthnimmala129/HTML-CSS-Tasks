@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	label {
+		display: inline-block;
+		width: 150px;
+		margin: 5px;
+		color: white;	
+	}
+	#register {
+		width: 100%;
+		padding: 5px;
+		font-size: 20px;
+	}
+	.flex-container {
+		width: 50%;
+		margin: auto;
+		display: flex;
+		border: 1px solid green;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		background-color: rgb(123, 38, 83);
+	}
+	.flex-container>div {
+		border: 1px solid black;
+		padding: 20px 50px;
+		background-color: rgb(133, 39, 58);
+	}
+	body {
+		margin: 50px;
+	}
+	span {
+		color: white;
+	}
+</style>	
+</head>
+<body>
+	<div class="flex-container">
+		<div>
+			<form>
+				<label> Name: </label>
+				<input type="text" id="name" placeholder="your name"> <br>
+				<label> Email: </label>
+				<input type="text" id="email" placeholder="your email"> <br>
+				<label> Password </label>
+				<input type="text" id="pwd"> <br>
+				<label> Phone Number: </label>
+				<input type="text" id="phno"> <br>
+				<label> Gender: </label>
+				<span> Male: </span> <input type="radio" name="gender" value="male"> 
+				<span> Female: </span> <input type="radio" name="gener" value="female">
+				<span> Other: </span> <input type="radio" name="other" value="other"> <br>
+				<label> language </label>
+				<select id="language">
+					<option> Select language </option>
+					<option> English </option>
+					<option> Telugu </option>
+					<option> Hindi </option> 
+				</select> <br>
+				<label> Zip Code: </label>
+				<input type="text" id="zip"> <br>
+				<label> About: </label>
+				<textarea> Write about yourself </textarea> <br>
+				<input type="submit" id="register" value="Register">
+			</form>
+		</div>
+	</div>
+</body>	
+</html>
