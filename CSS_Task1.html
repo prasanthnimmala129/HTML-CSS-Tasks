@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Task1 </title>
+<style>
+	table, td, th {
+		margin: 20px;
+		border: 1px solid black;
+		border-radius: 10px;
+		background-color: #96D4D4 ;
+	}
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		width: 50%;
+		margin: auto;
+		gap: 5px;
+	}
+	.grid-container>div{
+		margin: auto;
+		text-align: centre;
+		border: 2px solid green;
+		width: 150px;
+		height: 100px;
+	}
+</style>
+</head>
+<body>
+	<table style="width:100%">
+		<tr>
+			<th> Firstname </th>
+			<th> Lastname </th>
+			<th> Age </th>
+		</tr>
+		<tr>
+			<td> Jill </td>
+			<td> Smith </td>
+			<td> 50 </td>
+		</tr>
+		<tr> 
+			<td> Eve </td>
+			<td> Jackson </td>
+			<td> 94 </td>
+		</tr>
+		<tr>
+			<td> John </td>
+			<td> Doe </td>
+			<td> 80 </td>
+		</tr>
+	</table>
+	<div class="grid-container">
+		<div style="border-radius: 5px;"> </div>
+		<div style="border-radius: 10px;"> </div>
+		<div style="border-radius: 15px;"> </div>
+		<div style="border-radius: 8px;"> </div>
+		<div style="border-radius: 0px;"> </div>
+		<div style="border-radius: 16px"> </div>
+		<div style="border-radius:100px;width:100px,height:100px;"> </div>
+		<div style="border-radius:6px;border:2px solid green;"> </div> 
+		<div style="border-radius:5px 20px;"> </div>
+	</div>
+</body>
+</html>
